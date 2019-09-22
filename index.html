@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Schala Offical Trance Music</title>
+	<meta name="description" content="Offical Page For Trance Music Artist SCHALA">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="body">
+	<div class="container" id="wrapper">
+			<header>
+				<nav>
+					<h1><img src="img/logoSchala.png" alt="Schala Logo"></h1>
+					<ul>
+						<li class="logo"> <a href="index.php"> <img src="img/logoS.png" alt="Schala Logo">  </a> </li>
+						<li> <a href="https://trance.news/" target="_blank" >news</a> </li>
+						<li> <a href="pages/about.html">about</a> </li>
+						<li> <a href="pages/music.html">music</a> </li>
+						<li> <a href="index.html">home</a> </li>	
+					</ul>
+				</nav>
+			</header>
+		<div id="main">
+			<video id="myVideo" onClick="playPause()">
+				  <source src="vid/promo.mp4" type="video/mp4">
+				  <source src="vid/promo.m4v" type="video/mp4">
+				  <source src="vid/promo.ogg" type="video/ogg">
+				  <source src="vid/promo.webm" type="video/webm">
+				  Your browser does not support the video tag.
+			</video>
+			<div id="playpause" onClick="playPause()"></div>
+		</div> <!-- main -->
+		<footer>
+			<form action="index.php" method="post">
+			  <input class="email" type="text" name="email" value="" placeholder="Join Mailing List" required>
+			  <input class="mailbtn" type="submit" name="submit" value="join">
+			</form>
+			<ul id="social_links">
+				<li> <a href="https://www.facebook.com/schalamusic/" target="_blank"> <img class="fbicon" src="img/fb.png" alt="facebook" ></a> </li>
+				<li> <a href="https://twitter.com/schalasf" target="_blank"> <img src="img/twitter.png" alt="twitter"  > </a> </li>
+				<li> <a href="https://soundcloud.com/schalala" target="_blank"> <img  class="scicon" src="img/soundcloud.png" alt="soundcloud" > </a> </li>
+				<li> <a href="https://open.spotify.com/artist/0jk7HHrwqq0Y3Djioelf3m" target="_blank"> <img class="spoticon" src="img/spotify.png" alt="spotify" > </a> </li>
+			</ul>
+		</footer>
+
+	</div><!-- wrapper -->
+	<script src="js/script.js"></script>
+</body>
+</html>
